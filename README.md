@@ -1,5 +1,7 @@
 # Fahrzeuge oder Kilometer? Welche Fahrzeuggröße? – Streamlit-Demo
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-fahrzeuggroesse-demo.streamlit.app/)**
+
 Fall-Demo für die Website „Sebastian Hanisch – Operations Research und Machine Learning“ (`demos.html`, Gruppe „Transport & Tourenplanung“). Ein Fahrzeug kostet **Fixkosten**, jeder Kilometer kostet auch: mehr Fahrzeuge heißen kürzere Wege, weniger Fahrzeuge längere (**CVRP mit Fixkosten je Fahrzeug**). Die Demo rechnet live auf **einer Instanz** drei Lösungen mit einer eigenen Suche, die kürzeste (Fixkosten 0), die kostenoptimale bei dem gewählten Wert und die bei den höchsten gemessenen Fixkosten (f = 400; meist die mit den wenigsten gefundenen Fahrzeugen), und stellt zwei Regler in den Mittelpunkt: die **Kapazitätsreserve** und die **Fixkosten**. OR-Tools mit Fixkosten und eine Kontinuumsformel für die Distanz laufen auf Knopfdruck. Die Aussagen stützen sich auf eine **vorgerechnete Messreihe** (40 Zellen, je 25 Instanzen, sieben Fixkostenstufen, Zufalls-Seeds ab 300000).
 
 ## Warum dieses Problem
